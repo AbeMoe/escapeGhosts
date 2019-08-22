@@ -3,6 +3,8 @@
 //each actors position. If yours is equal
 //or greater than any other actors, return false
 //Otherwise, return false
+//Challenge completed: Faster than 8.8%
+//                     Less memory than 100%
 const ghosts = [[1,9],[2,-5],[3,8],[9,8],[-1,3]]
 const target = [8,-10]
 var targetDist = Math.abs(target[0]) + Math.abs(target[1]);
